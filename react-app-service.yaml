@@ -4,7 +4,7 @@ metadata:
   name: next-app-service
 spec:
   selector:
-    app: next-app
+    app: nextjs-app
   ports:
     - port: 3000
       targetPort: 3000
